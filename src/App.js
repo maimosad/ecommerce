@@ -76,7 +76,7 @@ function App() {
         { index: true, element: <IsUserNotLogin> <Home /></IsUserNotLogin>  },
         { path: "cart", element: <IsUserNotLogin><Cart /></IsUserNotLogin> },
         { path: "Products", element: <IsUserNotLogin><Products /></IsUserNotLogin>},
-        { path: "Categories", element: <IsUserNotLogin><Products /></IsUserNotLogin>},
+        { path: "Categories", element: <IsUserNotLogin><Categories /></IsUserNotLogin>},
         { path: "productDetails/:id", element: <ProductDetails  userData={userData}/> },
         { path: "wishlist", element: <IsUserNotLogin><Wishlist /></IsUserNotLogin> },
         { path: "checkout", element: <IsUserNotLogin><Checkout/></IsUserNotLogin> },
