@@ -1,0 +1,27 @@
+#mainSlider {
+  padding: 2.5rem 0;
+  .sliderImg {
+    max-height: 50vh;
+    cursor: grab;
+  }
+  .right {
+    max-height: 50vh;
+    img {
+      width: 100%;
+    }
+    @media (max-width: 991px) {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  #mainSlider {
+    .sliderImg {
+      max-height: 40vh;
+    }
+    .right {
+      max-height: 40vh;
+    }
+  }
+}

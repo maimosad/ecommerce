@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap");
+:root {
+  --main-color: hsl(0, 100%, 50%);
+  --main-color65: rgba(253, 0, 0, 0.65);
+  --light-color: #f0f3f2;
+  --dark-color: #242424;
+  --delete-color: #ec5b5b;
+  --white-color: #ffffff;
+  --gray-color: #808080;
+  --shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px,
+    rgba(145, 158, 171, 0.14) 0px 4px 5px 0px,
+    rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
+  --font-family: "Encode Sans Expanded", sans-serif;
+  --rating-color: #ffc908;
+}
+nav {background-color: #FFFFB6;}
+footer {background-color: #FFFFB6;}
+.badge {
+  font-size: 10px !important;
+  left: 100%;
+  top: -60% !important;
+  padding: 5px;
+}
+body {
+  font-family: var(--font-family) !important;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+a:hover {
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+}
+::-webkit-scrollbar-track {
+  background: var(--white-color);
+}
+::selection {
+  color: var(--white-color);
+  background: var(--main-color);
+}
+
+.slick-slide img {
+  margin: auto;
+}
+button.slick-arrow.slick-next,
+button.slick-arrow.slick-prev {
+  display: none !important;
+}
+
+.starIcon {
+  color: var(--rating-color);
+}
+
+*:focus-visible {
+  outline: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-grab {
+  cursor: grab;
+}
+
+.input {
+  box-shadow: none !important;
+  border-color: var(--gray-color);
+}
+.input:focus,
+.inputCleck:focus {
+  border-color: var(--main-color);
+}
+.inputCleck {
+  box-shadow: none !important;
+  border-color: var(--main-color);
+}
+.inputCleck:checked {
+  background-color: #0aad0a;
+}
+
+.alert {
+  background-color: transparent;
+  padding: 0.5rem 0;
+  color: #ad0a0a;
+}
+
+.main-color {
+  color: var(--main-color);
+}
+
+button {
+  box-shadow: none !important;
+}
+
+ul.dropdown-menu.show {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: auto;
+}
+
+@media (max-width: 991px) {
+  ul.dropdown-menu.show {
+    position: relative;
+    background-color: transparent;
+  }
+}
+
+.dropdown-item.active, .dropdown-item:active {
+
+  background-color: var(--main-color);
+}
+.activeList{
+  color: var(--white-color) !important;
+  background-color: var(--main-color);
+  opacity: 1;
+}

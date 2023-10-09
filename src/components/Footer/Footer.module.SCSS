@@ -1,0 +1,42 @@
+#footer {
+  .inputBtn {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .input {
+      width: 85%;
+      box-shadow: none;
+      border-color: var(--gray-color);
+      &:focus {
+        box-shadow: none;
+        border-color: var(--main-color);
+      }
+    }
+    .right,.left {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      p {
+        margin: 0;
+      }
+      .partners {
+        img {
+          width: 4rem;
+          margin: 0 0.5rem;
+          opacity: 0.8;
+          transition: 0.5s;
+          &:hover{
+            opacity: 1;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    @media (max-width: 1200px) {
+      .input,.right {
+        width: 100%;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}

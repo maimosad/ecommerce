@@ -1,0 +1,19 @@
+.navItem {
+  background: var(--main-color65);
+  color: var(--white-color);
+  padding: 1rem;
+  margin: 0 !important;
+  transition: 0.5s;
+  &:hover {
+    background: var(--main-color);
+  }
+}
+.mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+  p {
+    margin: 0;
+    font-weight: bold;
+  }
+}

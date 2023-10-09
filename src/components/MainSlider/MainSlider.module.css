@@ -1,0 +1,27 @@
+#mainSlider {
+  padding: 2.5rem 0;
+}
+#mainSlider .sliderImg {
+  max-height: 50vh;
+  cursor: grab;
+}
+#mainSlider .right {
+  max-height: 50vh;
+}
+#mainSlider .right img {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  #mainSlider .right {
+    display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  #mainSlider .sliderImg {
+    max-height: 40vh;
+  }
+  #mainSlider .right {
+    max-height: 40vh;
+  }
+}/*# sourceMappingURL=MainSlider.module.css.map */

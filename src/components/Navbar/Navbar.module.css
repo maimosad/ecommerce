@@ -1,0 +1,14 @@
+.navLink {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+}
+
+.svg {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+.svg:hover {
+  opacity: 1;
+}/*# sourceMappingURL=Navbar.module.css.map */
